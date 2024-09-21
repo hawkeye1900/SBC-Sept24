@@ -1,0 +1,98 @@
+/* Basic Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    /* Hardcoded white */
+    color: #000000;
+    /* Hardcoded black */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #d90000;
+    /* Hardcoded red */
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    /* Hardcoded white */
+    font-weight: bold;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background-color: #d90000;
+    /* Hardcoded red */
+    color: #ffffff;
+    /* Hardcoded white */
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.header-image {
+    width: 100%;
+    
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #ffffff;
+    /* Hardcoded white */
+}
+
+img {
+    max-height:fit-content;
+    width: 100%;
+    
+}
+
+.box {
+    width: 40%;
+    padding: 20px;
+    background-color: #fff3f3;
+    /* Light red background */
+    border: 2px solid #d90000;
+    /* Hardcoded red border */
+    color: #d90000;
+    /* Hardcoded red text */
+    text-align: center;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+.box p {
+    color: #000000;
+    /* Hardcoded black text */
+}
+
+a.option {
+    color: #d90000;
+    /* Hardcoded red */
+    text-decoration: none;
+    width: 50%;
+}
