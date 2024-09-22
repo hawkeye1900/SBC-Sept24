@@ -15,7 +15,9 @@ header {
 
 /* Flexbox navigation */
 .navbar {
+    /* TODO: explain the purpose of the following properties */
     display: flex;
+
     justify-content: center;
     background-color: #007BFF;
     padding: 10px;
@@ -35,9 +37,12 @@ header {
 
 /* Flexbox content area */
 .content {
-    display: flex;
-    justify-content: space-around;
+    
+    /* TODO: explain the purpose of the following properties */
     flex-wrap: wrap;
+    display: flex;
+
+    justify-content: space-around;
     align-items: center;
     margin: 20px auto;
     padding: 20px;
@@ -51,9 +56,11 @@ header {
     color: white;
     padding: 20px;
     margin: 10px;
-    flex: 1 1 200px;
     text-align: center;
     border-radius: 5px;
+
+    /* TODO: explain the purpose of the following properties */
+    flex: 1 1 200px;
 }
 
 .box:hover {
