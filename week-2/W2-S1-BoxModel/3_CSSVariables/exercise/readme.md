@@ -26,11 +26,6 @@ As a developer, I want to refactor my CSS to use variables for colors so that it
 - The primary color should be applied to headings, buttons, and links.
 - The secondary color should be applied to backgrounds, borders, or other secondary elements.
 
-## Bonus
-
-- Consider using CSS variables for other reusable values like font sizes, spacings (e.g., margins, padding), and shadows.
-- Try adding a dark mode theme by defining a new set of variables and applying them conditionally based on user preferences (`@media (prefers-color-scheme: dark)`).
-
 ## Useful Resources
 
 Here are some helpful resources for learning more about CSS variables:
