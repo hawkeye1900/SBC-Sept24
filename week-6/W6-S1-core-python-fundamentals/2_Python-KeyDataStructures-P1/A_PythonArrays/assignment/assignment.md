@@ -18,7 +18,7 @@ As a Python developer, I want to understand how to effectively utilize various a
 
 ## ✅ Acceptance Criteria
 
-- The Python script is named `arrays_assignment.py`.
+- The Python script is named `YOURNAME_W6S2A_assignment.py`.
 - The script demonstrates:
   - Array creation and initialization.
   - Accessing and updating array elements.
@@ -26,7 +26,7 @@ As a Python developer, I want to understand how to effectively utilize various a
 
 ## 🛠️ Steps to Complete
 
-1. **📁 Create a new Python file**: Name the file `arrays_assignment.py`.
+1. **📁 Create a new Python file**: Name the file `YOURNAME_W6S2A_assignment.py`.
 
 2. **🖊️ Initialize an array**: Create an array (list) with some sample values. For example, `my_array = ["apple", "banana", "cherry", "date"]`.
 
@@ -63,6 +63,6 @@ As a Python developer, I want to understand how to effectively utilize various a
 
 ## Submission
 
-Once you complete the assignment, submit the `arrays_assignment.py` file to your instructor.
+Once you complete the assignment, submit the `YOURNAME_W6S2A_assignment.py` file to your instructor.
 
 Happy coding, and good luck Geeks!
