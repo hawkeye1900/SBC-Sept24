@@ -4,7 +4,7 @@
 
 Bootstrap is not only a great tool for scaffolding websites quickly, but its utility classes and pre-made components make it an excellent choice for maintaining and updating existing sites. For this reason, developers often migrate existing sites to Bootstrap to simplify updates and continued support.
 
-In this challenge, you will take one of your existing projects (either from Week 1 or Week 2) and migrate it to Bootstrap. The final project should be deployed using GitHub Pages, so it is accessible online.
+In this challenge, you will take one of your existing projects (either from Week 1 or Week 2) and migrate it to Bootstrap. The final project should be deployed using GitHub Pages, so it is accessible online. You've also learnt about jQuery Widgets, so feel free to use any Widgets that you feel might enhance your site further
 
 ## Key Learnings
 
@@ -14,6 +14,7 @@ By completing this exercise, you will:
 - Learn how to incorporate Bootstrap's responsive grid system, components, and utility classes into an existing project.
 - Understand the benefits of using a front-end framework like Bootstrap for easier maintenance and scalability.
 - Practice deploying a site using GitHub Pages.
+- (optional) Gain experience of installing and using jQuery Widgets
 
 ## User Story
 
@@ -26,6 +27,7 @@ As a developer, I want to migrate my existing website to Bootstrap so that I can
 - Use at least **three Bootstrap components** (e.g., Navbar, Cards, Buttons, Forms) to replace existing UI elements.
 - Utilize **Bootstrap utility classes** (e.g., spacing, text alignment, background colors) to simplify styling.
 - Ensure the migrated site looks clean, responsive, and functions correctly across various screen sizes.
+- If using jQuery Widgets, ensure they are installed and working correctly
 - Deploy the migrated site using GitHub Pages, ensuring it is publicly accessible.
 
 ## Getting Started
@@ -89,13 +91,6 @@ As a developer, I want to migrate my existing website to Bootstrap so that I can
 7. **Deploy the site on GitHub Pages:**
    - Push your migrated project to GitHub and [deploy it on GitHub Pages](https://pages.github.com/).
 
-## Additional Resources
-
-- [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-- [Bootstrap Components](https://getbootstrap.com/docs/4.5/components/alerts/)
-- [Bootstrap Utility Classes](https://getbootstrap.com/docs/4.5/utilities/spacing/)
-- [GitHub Pages: Getting Started](https://docs.github.com/en/pages/getting-started-with-github-pages)
-
 ## Example
 
 Here’s an example of how you might convert a simple header and layout into Bootstrap:
@@ -120,3 +115,12 @@ Here’s an example of how you might convert a simple header and layout into Boo
 ## Submission
 
 Once your site has been migrated and deployed, submit the link to your GitHub Repo and GitHub Pages deployment.
+
+## Additional Resources
+
+- [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+- [Bootstrap Components](https://getbootstrap.com/docs/4.5/components/alerts/)
+- [Bootstrap Utility Classes](https://getbootstrap.com/docs/4.5/utilities/spacing/)
+- [GitHub Pages: Getting Started](https://docs.github.com/en/pages/getting-started-with-github-pages)
+- [jQuery UI Widgets Documentation](https://api.jqueryui.com/category/widgets/)
+- [jQuery UI Demos and Code Samples](https://jqueryui.com/)
