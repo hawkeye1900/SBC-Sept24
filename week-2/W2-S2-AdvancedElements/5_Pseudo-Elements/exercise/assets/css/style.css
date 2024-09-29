@@ -69,3 +69,16 @@ button:hover {
 }
 
 /* Add hover and visited states for the link */
+/* ::before pseudo-element for <h1> */
+.email-label::before {
+    content: "✉️";
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.phone-label::before {
+    content: "📞";
+    font-size: 1rem;
+    margin-right: 5px;
+    
+}

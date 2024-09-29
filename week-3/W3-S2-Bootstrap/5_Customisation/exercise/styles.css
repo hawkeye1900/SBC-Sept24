@@ -1,0 +1,47 @@
+/* Custom Styles for overriding Bootstrap colors */
+
+/* Header Custom Colors */
+header {
+    background-color: #4B0082 !important;
+    /* Indigo */
+    color: #FFD700 !important;
+    /* Gold */
+}
+
+/* Footer Custom Colors */
+footer {
+    background-color: #2E8B57 !important;
+    /* SeaGreen */
+    color: #FFFFFF !important;
+    /* White */
+}
+
+/* Button Custom Colors */
+.btn-primary {
+    background-color: #FF4500 !important;
+    /* OrangeRed */
+    border-color: #FF4500 !important;
+}
+
+.btn-secondary {
+    background-color: #6A5ACD !important;
+    /* SlateBlue */
+    border-color: #6A5ACD !important;
+}
+
+.btn-danger {
+    background-color: #DC143C !important;
+    /* Crimson */
+    border-color: #DC143C !important;
+}
+
+.btn-success {
+    background-color: #32CD32 !important;
+    /* LimeGreen */
+    border-color: #32CD32 !important;
+}
+
+.text-dark {
+    color: rgb(188, 215, 55) !important;
+    /* Black */
+}

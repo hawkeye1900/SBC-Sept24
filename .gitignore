@@ -45,3 +45,8 @@ coverage/
 *.suo
 *.ntvs*
 *.​⬤
+
+#answers
+answers.md
+answers.css
+answers.htm

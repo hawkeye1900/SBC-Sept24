@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery CSS Manipulation</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- TODO: Add in the jQuery script  -->>
+</head>
+
+<body>
+
+    <h2>Change CSS Properties with jQuery</h2>
+
+    <div class="box" id="box1">
+        <p class="text-element">Text 1</p>
+        <button class="btn">Change Color</button>
+    </div>
+
+    <div class="box" id="box2">
+        <p class="text-element">Text 2</p>
+        <button class="btn">Increase Font Size</button>
+    </div>
+
+    <div class="box" id="box3">
+        <p class="text-element">Text 3</p>
+        <button class="btn">Change Background</button>
+    </div>
+
+    <div class="box" id="box4">
+        <p class="text-element">Text 4</p>
+        <button class="btn">Italicize Text</button>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Change text color to red for the first box
+            $('#box1').click(function () {
+                $('#box1').css('color', 'red');
+            });
+
+            // TODO: Increase font size for the second box
+
+            // TODO: Change background color for the third box
+
+            // TODO: Italicize text for all the text elements
+
+        });
+    </script>
+
+</body>
+
+</html>
