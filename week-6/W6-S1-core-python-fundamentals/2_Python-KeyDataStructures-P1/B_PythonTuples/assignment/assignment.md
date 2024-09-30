@@ -18,7 +18,7 @@ As a Python developer, I want to explore tuple features to better organize and w
 
 ## ✅ Acceptance Criteria
 
-- The Python script is named `YOURNAME_W6S2B_assignment.py`.
+- The Python script is named `YOURNAME_W6S1_2_B_assignment.py`.
 - The script demonstrates:
   - Tuple creation with various data types.
   - Accessing and unpacking tuple elements.
@@ -28,7 +28,7 @@ As a Python developer, I want to explore tuple features to better organize and w
 
 ## 🛠️ Steps to Complete
 
-1. **📁 Create a new Python file**: Name the file `YOURNAME_W6S2B_assignment.py`.
+1. **📁 Create a new Python file**: Name the file `YOURNAME_W6S1_2_B_assignment.py`.
 
 2. **🖊️ Initialize tuples**:
     - Create tuples containing multiple data types (e.g., integers, strings, and floats). 
@@ -95,7 +95,7 @@ As a Python developer, I want to explore tuple features to better organize and w
 
 ## Submission
 
-Once you complete the task, submit the `YOURNAME_W6S2B_assignment.py` file to your instructor.
+Once you complete the task, submit the `YOURNAME_W6S1_2_B_assignment.py` file.
 
 ---
 

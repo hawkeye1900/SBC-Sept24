@@ -19,7 +19,7 @@ As a developer, I want to use variables and constants efficiently so that I can 
 
 ## ✅ **Acceptance Criteria**
 
-- **📝 Create a Python script named** `YOURNAME_W6S1A_assignment.py`.
+- **📝 Create a Python script named** `YOURNAME_W6S1_1_A_assignment.py`.
 - The script should demonstrate the following:
   - ✨ Variable declaration and assignment, showcasing both **mutable** (e.g., lists, dictionaries) and **immutable** (e.g., integers, strings, tuples) data types.
   - 🚩 Use of constants and how to define them using naming conventions (e.g., uppercase names).
@@ -30,7 +30,7 @@ As a developer, I want to use variables and constants efficiently so that I can 
 
 ## 🛠️ **Steps to Complete**
 
-1. **📁 Create a new Python file**: Name it `YOURNAME_W6S1A_assignment.py`.
+1. **📁 Create a new Python file**: Name it `YOURNAME_W6S1_1_A_assignment.py`.
 2. **🖊️ Declare variables**:
    - Create examples of different types of variables (integer, float, string, boolean).
 3. **🔒 Define constants**:
