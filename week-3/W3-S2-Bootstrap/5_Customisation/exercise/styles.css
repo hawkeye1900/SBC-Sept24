@@ -4,8 +4,13 @@
 header {
     background-color: #4B0082 !important;
     /* Indigo */
-    color: #FFD700 !important;
+    color: #ff2f00 !important;
     /* Gold */
+}
+
+.bg-primary {
+    background-color: #4B0082 !important;
+    /* Indigo */
 }
 
 /* Footer Custom Colors */

@@ -61,6 +61,10 @@ As a developer, I want to temporarily save my work using `git stash` so that I c
    - Modify or add a file to represent ongoing work on the new feature.
    - You’re not ready to commit these changes yet.
 
+   ```bash
+   git add .
+   ```
+
 5. **Stash the changes:**
 
    - Use git stash to stash the uncommitted changes.
@@ -85,7 +89,6 @@ As a developer, I want to temporarily save my work using `git stash` so that I c
    ```bash
    git add .
    git commit -m "Bug fix on main branch"
-   git push origin main
    ```
 
 8. **Return to the feature branch:**
