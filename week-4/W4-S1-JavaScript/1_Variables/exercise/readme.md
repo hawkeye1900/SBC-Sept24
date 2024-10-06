@@ -28,7 +28,6 @@ As a beginner JavaScript developer, I want to create a simple webpage that uses 
 
 2. **Variable Declaration and Assignment**:
 
-   - Declare at least three variables using `let` or `const`.
    - Store different types of data (e.g., a number, a string) in the variables.
 
 3. **Adding Variables**:
