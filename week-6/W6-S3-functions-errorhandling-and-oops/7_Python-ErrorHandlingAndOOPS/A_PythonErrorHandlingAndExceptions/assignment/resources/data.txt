@@ -1,0 +1,4 @@
+# Sample data for testing file handling.
+This is the first line of data.
+This is the second line of data.
+This is the third line of data.
