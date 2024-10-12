@@ -25,3 +25,10 @@ console.log("Greater than or equal to (10 >= 10):", c >= c); // true
 
 // 8. Less than or equal to (<=)
 console.log("Less than or equal to (5 <= 10):", a <= c); // true
+
+/// modulus
+
+var d = 10;
+
+// 9. Modulus (%) - returns the remainder of a division
+console.log("Modulus (10 % 3):", d % 3); // 1

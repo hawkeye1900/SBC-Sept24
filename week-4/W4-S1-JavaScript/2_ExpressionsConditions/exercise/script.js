@@ -46,5 +46,12 @@ if (num1 > 15) {
 }
 
 // 5. Clear Comments
+if (num2 === "10" && num1 === "10") {
+  console.log("num1 is less than 15 and num2 is exactly equal to '10'.");
+}
+
+if (num1 < 15 && (num2 === "10" || num1 === 10)) {
+  console.log("num1 is less than 15 and num2 is exactly equal to '10'.");
+}
 
 // We've added comments throughout the code to explain each comparison and conditional statement.

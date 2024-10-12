@@ -1,9 +1,15 @@
 var firstName = "John";
 var surName = "Smith";
+
+const surName = "Doe";
+surName = "Doe";
+
 var age = 25;
 var retirementAge = 67;
 
-console.log(firstName);
+console.log(firstName + " " + surName);
+
+console.log(`hello ${firstName} `);
 
 // TODO: log out the full name "John Smith" by concatenating the variables firstName and surName
 
