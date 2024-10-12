@@ -1,4 +1,6 @@
-document.getElementById("fetchRepos").addEventListener("click", function () {
+document.getElementById("fetchRepos").addEventListener("click", onfetchRepos);
+
+function onfetchRepos() {
   const username = document.getElementById("username").value;
 
   if (username) {
@@ -14,16 +16,7 @@ document.getElementById("fetchRepos").addEventListener("click", function () {
         return response.json();
       })
       .then((data) => {
-        // This logs all your data
-        console.log(data); // Log the repository data to the console
-
-        // this loops through the data and logs the name of each repository
-        data.forEach((repo) => {
-          // this logs the name of each repository
-          //console.log(repo.name);
-          //TODO: log out the full name of each repository and whether it is a private or public repository
-          //TODO: print out Avatar URL and login of the owner
-        });
+        renderRepos(data);
       })
       .catch((error) => {
         console.error("Error:", error.message);
@@ -31,4 +24,14 @@ document.getElementById("fetchRepos").addEventListener("click", function () {
   } else {
     console.log("Please enter a GitHub username.");
   }
-});
+}
+
+const renderRepos = (repos) => {
+  // this loops through the data and logs the name of each repository
+  data.forEach((repo) => {
+    // this logs the name of each repository
+    //console.log(repo.name);
+    //TODO: log out the full name of each repository and whether it is a private or public repository
+    //TODO: print out Avatar URL and login of the owner
+  });
+};
