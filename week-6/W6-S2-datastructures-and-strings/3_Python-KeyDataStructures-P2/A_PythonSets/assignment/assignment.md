@@ -19,7 +19,7 @@ As a developer, I want to manipulate sets to handle collections of unique data a
 
 ## ✅ **Acceptance Criteria**
 
-- **📝 Create a Python script named** `YOURNAME_W6S2_3_B_assignment.py`.
+- **📝 Create a Python script named** `YOURNAME_W6S2_3_A_assignment.py`.
 - The script should demonstrate the following:
   - ✨ **Dynamically generate two sets** with random numbers or a range of integers.
   - ➕ **Perform set operations**:
@@ -34,7 +34,7 @@ As a developer, I want to manipulate sets to handle collections of unique data a
 
 ## 🛠️ **Steps to Complete**
 
-1. **📁 Create a new Python file**: Name it `YOURNAME_W6S2_3_B_assignment.py`.
+1. **📁 Create a new Python file**: Name it `YOURNAME_W6S2_3_A_assignment.py`.
 2. **🖊️ Generate two sets**:
    - Create two sets using either `range()` or random numbers using Python’s `random` module.
    - Example: 

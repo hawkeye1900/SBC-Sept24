@@ -20,7 +20,7 @@ As a developer, I want to efficiently manipulate and update dictionaries in Pyth
 
 ## ✅ **Acceptance Criteria**
 
-- **📝 Create a Python script named** `YOURNAME_W6S2_3_C_assignment.py`.
+- **📝 Create a Python script named** `YOURNAME_W6S2_3_B_assignment.py`.
 - The script should demonstrate the following:
   - ✨ Create a **nested dictionary** that contains information about people, with each person having attributes like "name", "age", and "email".
   - 🔄 Dynamically add new key-value pairs to the dictionary using a loop, such as adding a unique ID for each person.
@@ -31,7 +31,7 @@ As a developer, I want to efficiently manipulate and update dictionaries in Pyth
 
 ## 🛠️ **Steps to Complete**
 
-1. **📁 Create a new Python file**: Name it `YOURNAME_W6S2_3_C_assignment.py`.
+1. **📁 Create a new Python file**: Name it `YOURNAME_W6S2_3_B_assignment.py`.
 2. **👥 Create a nested dictionary**:
    - Define a dictionary that contains multiple people, each represented by their own dictionary with details like name, age, and email.
 3. **🔄 Dynamically add key-value pairs**:

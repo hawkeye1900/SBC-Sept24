@@ -20,7 +20,7 @@ As an advanced Python developer, I want to work with complex JSON objects, handl
 
 ## ✅ Acceptance Criteria
 
-- The Python script is named `YOURNAME_W6S2_3_A_assignment.py`.
+- The Python script is named `YOURNAME_W6S2_3_C_assignment.py`.
 - The script demonstrates:
   - Parsing deeply nested JSON data from a file or string.
   - Accessing and modifying nested JSON elements.
@@ -34,7 +34,7 @@ As an advanced Python developer, I want to work with complex JSON objects, handl
 
 ### Part 1: Working with Complex JSON Structures
 
-1. **📁 Create a new Python file**: Name the file `YOURNAME_W6S2_3_A_assignment.py`.
+1. **📁 Create a new Python file**: Name the file `YOURNAME_W6S2_3_C_assignment.py`.
 
 2. **🖊️ Initialize Complex JSON Data**: 
     - Use a JSON string that includes multiple levels of nested objects and arrays.
@@ -128,6 +128,6 @@ As an advanced Python developer, I want to work with complex JSON objects, handl
 
 ## Submission
 
-Once you complete the task, submit the `YOURNAME_W6S2_3_A_assignment.py` and `output_complex.json` files.
+Once you complete the task, submit the `YOURNAME_W6S2_3_C_assignment.py` and `output_complex.json` files.
 
 Good luck, and happy coding techies! 🚀
