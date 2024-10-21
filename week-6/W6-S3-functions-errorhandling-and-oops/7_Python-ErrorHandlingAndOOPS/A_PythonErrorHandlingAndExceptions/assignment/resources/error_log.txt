@@ -1,0 +1,4 @@
+2024-10-07 12:00:00: FileNotFoundError: The file 'data.txt' does not exist.
+2024-10-07 12:05:00: ZeroDivisionError: Cannot divide by zero.
+2024-10-07 12:10:00: ValueError: Invalid input. Please enter numeric values.
+2024-10-07 12:15:00: FileNotFoundError: Database file not found.
