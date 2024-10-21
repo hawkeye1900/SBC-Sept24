@@ -1,35 +1,54 @@
-# 🏆 Python Challenge: Comprehensive System Integration
+# 🏆 Python Challenge: Build a Simple To-Do List Application
 
 ## 🎯 Challenge
 
-Your task is to develop a versatile Python application that integrates three key systems: a Personal Finance Manager, a Customer Feedback System, and an Inventory Management System. This unified tool will help users manage their personal finances, gather and analyze customer feedback, and track inventory items.
+Your task is to develop a functional To-Do List application using Python. This application will allow users to manage their tasks efficiently through a command-line interface. Users will be able to add, view, update, and delete tasks, with the tasks being saved in a JSON file so that data persists even after the application is closed.
 
 ## 📚 Key Learnings
 
-Through this challenge, you'll apply various Python concepts, including variables, data structures, error handling, and user interaction. You'll create a cohesive application that uses these concepts to provide practical functionality and insights.
+By completing this challenge, you will:
+- Gain hands-on experience with Python programming by building a real-world application.
+- Learn how to use data structures like lists and dictionaries for managing tasks.
+- Work with JSON for saving and loading application data.
+- Implement functions and error handling to ensure smooth user interaction.
+- Gain familiarity with creating command-line interfaces in Python.
 
 ## 👤 User Story
 
-Imagine you're building a comprehensive tool for managing personal finances, collecting and analyzing customer feedback, and overseeing inventory. Your application should efficiently handle financial tracking, feedback collection, and inventory management, providing users with actionable reports and alerts.
+As a user of the To-Do List application, I want to easily manage my tasks by adding, viewing, updating, and deleting them so that I can stay organized and keep track of my responsibilities.
 
 ## ✅ Acceptance Criteria
 
-Start by creating three Python files: `finance_manager.py`, `feedback_system.py`, and `inventory_system.py`, each responsible for one of the three systems. You'll also need a `data.json` file to store and retrieve data for all modules. In `finance_manager.py`, implement features to track expenses, compare them with a budget, and generate financial reports using lists and dictionaries. Ensure data is saved and loaded from `data.json` and allow user interaction for input and reporting.
+### Functionality:
+1. **Add a Task**: Users can add a new task with a description and a status (e.g., pending, completed).
+2. **View Tasks**: Users can view all existing tasks along with their statuses.
+3. **Update a Task**: Users can update the description or status of a task.
+4. **Delete a Task**: Users can delete a task from the list.
+5. **Persistent Storage**: The application should save tasks to a JSON file when changes are made and load them when the application starts.
 
-In `feedback_system.py`, create functions to collect customer feedback, categorize it, calculate average ratings, and produce summary reports. Again, use dictionaries to manage feedback and JSON for data storage. Make sure users can submit feedback and view the results.
+### Data Handling:
+- Use a list to store tasks, where each task is a dictionary containing a description and a status.
+- Load tasks from a JSON file when the application starts.
+- Save tasks to the JSON file whenever they are added, updated, or deleted.
 
-For `inventory_system.py`, manage inventory items by defining stock thresholds and handling stock levels with dictionaries. Implement functions to add items, update stock, and generate alerts for low stock. Use JSON to store inventory data and provide user interaction for managing stock.
+### Functions and Error Handling:
+- Create functions for each operation (add, view, update, delete).
+- Implement error handling to manage invalid user inputs (e.g., updating a task that doesn't exist).
 
-Integrate all three systems so that data is shared and managed seamlessly across the modules. Ensure that the data in `data.json` is correctly handled and that users can switch between different functionalities within the application.
+## 🔄 Example Flow
 
-## Tips
+1. **Step 1**: Set up your Python environment and create a JSON file to store the tasks (e.g., `tasks.json`).
+2. **Step 2**: Implement the main program structure with a loop that displays a menu to the user.
+3. **Step 3**: Create functions for adding, viewing, updating, and deleting tasks, ensuring each function handles the task appropriately.
+4. **Step 4**: Incorporate error handling within your functions to manage potential exceptions (e.g., invalid task IDs).
+5. **Step 5**: Test your application thoroughly, ensuring all functionalities work as intended.
 
-Be sure to validate user input and handle exceptions effectively to create a robust application. Modularize your code to keep each system's functionality distinct yet interconnected. Properly comment your code to explain its purpose and functionality.
+## 🗂 Sample Task Structure
 
-## Additional Resources
+Each task in the JSON file should follow this structure:
 
-For guidance on the concepts used in this challenge, refer to the [Python JSON Documentation](https://docs.python.org/3/library/json.html), [Python Functions and Lambdas](https://realpython.com/defining-your-own-python-function/), [Python Error Handling and Exceptions](https://docs.python.org/3/tutorial/errors.html), [Python Iterators and Generators](https://realpython.com/introduction-to-python-generators/), and [Python List Comprehensions](https://realpython.com/list-comprehension-python/).
-
-## Submission
-
-Submit the following files for evaluation: `finance_manager.py`, `feedback_system.py`, `inventory_system.py`, and `data.json`. Ensure that your code is well-commented and demonstrates the successful integration of all three systems.
+```json
+{
+    "description": "Example Task",
+    "status": "pending"
+}
