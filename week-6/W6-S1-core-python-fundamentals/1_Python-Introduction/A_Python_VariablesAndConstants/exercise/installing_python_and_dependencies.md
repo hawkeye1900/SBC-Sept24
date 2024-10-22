@@ -67,3 +67,29 @@
 ## Troubleshooting
 - **Python not recognized?** Add it to PATH.
 - **pip not working?** Reinstall with `get-pip.py`. -> use this command : `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py` -> Once you've downloaded get-pip.py, you can install pip by running the following command in the terminal: `python get-pip.py` -> After running the script, verify that pip was installed correctly : `pip --version`
+
+
+# Creating an Account on PythonAnywhere and Adding Me as Your Teacher
+
+## Step 1: Signing Up
+- Visit [PythonAnywhere](https://www.pythonanywhere.com/).
+- Click **Create a Free Account**.
+- Fill in your username, email, and password.
+- Click **Register**.
+
+## Step 2: Verifying Your Email
+- Check your email for a verification link from PythonAnywhere.
+- Click on the link to verify your account.
+
+## Step 3: Accessing Your Dashboard
+- Once verified, log in to your PythonAnywhere account.
+- You will be redirected to the **Dashboard** where you can manage your Python environment.
+
+## Step 4: Adding Me as a Teacher
+- On the top-right corner of your Dashboard, click **Account**.
+- Under the **Teacher** section, click **Enter your teacher's name**.
+- Enter the teacher's username: **SaiNikhith**.
+- Click **Submit** to add the teacher.
+
+## Step 5: Start Using PythonAnywhere
+- Explore the platform to create new files, run Python scripts, and manage your projects.
