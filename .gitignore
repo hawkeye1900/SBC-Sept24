@@ -52,3 +52,6 @@ answers.css
 answers.htm
 answers.js
 answers.test.js
+
+#python
+*.ipynb
