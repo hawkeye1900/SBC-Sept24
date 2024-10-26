@@ -42,10 +42,12 @@ try:
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
 
+
 # 7. Custom Exceptions Example
 class CustomError(Exception):
     def __init__(self, message):
         self.message = message
+
 
 try:
     raise CustomError("This is a custom error.")
@@ -60,37 +62,3 @@ except IndexError:
     print("Error: Index out of range.")
 except ZeroDivisionError:
     print("Error: Cannot divide by zero.")
-
-# ----------------------------
-# Python Classes and Objects
-# ----------------------------
-
-# 1. Defining a Class
-class Dog:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    def bark(self):
-        return f"{self.name} says woof!"
-
-    def get_age(self):
-        return f"{self.name} is {self.age} years old."
-
-# 2. Creating Objects
-dog1 = Dog("Buddy", 3)
-dog2 = Dog("Max", 5)
-
-# 3. Accessing Attributes and Methods
-print("Dog 1 details:")
-print(dog1.get_age())  # Output: Buddy is 3 years old.
-print(dog1.bark())     # Output: Buddy says woof!
-
-print("\nDog 2 details:")
-print(dog2.get_age())  # Output: Max is 5 years old.
-print(dog2.bark())     # Output: Max says woof!
-
-# 4. Modifying Attributes
-dog1.age = 4
-print("\nUpdated Dog 1 details:")
-print(dog1.get_age())  # Output: Buddy is 4 years old.
