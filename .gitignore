@@ -55,5 +55,9 @@ answers.test.js
 
 #python
 *.ipynb
-
+*.pyc
+__pycache__/
+.pytest_cache/
+.coverage
+answer.py
 myenv/
