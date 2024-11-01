@@ -136,7 +136,7 @@ As a Django developer, I want to keep my project organized by separating functio
    - Add five or six model values in the Django admin interface.
 
 ## 📚 Additional Resources
-
+- [Walkthrough Video](https://youtu.be/M7vSOdpP14I)
 - [Django Admin Documentation](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
 
 ## Submission

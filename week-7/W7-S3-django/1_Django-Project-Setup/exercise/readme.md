@@ -145,7 +145,7 @@ Before we install Django, it's highly recommended to set up a virtual environmen
 - Keep the directory structure intact, as Django relies on it for routing and configuration.
 
 ## Additional Resources
-
+- [Walkthrough Video](https://youtu.be/TiqqtlWuTHQ)
 - [Django Official Documentation](https://www.djangoproject.com/)
 - [Django Getting Started](https://docs.djangoproject.com/en/stable/intro/tutorial01/)
 - [Django Project Structure](https://realpython.com/get-started-with-django-1/)
