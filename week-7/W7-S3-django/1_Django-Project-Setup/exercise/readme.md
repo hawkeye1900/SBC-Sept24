@@ -41,7 +41,7 @@ As a beginner Django developer, I want to understand the process of setting up a
 Before we install Django, it's highly recommended to set up a virtual environment to keep your coding environment tidy. This will isolate your Python/Django setup on a per-project basis.
 
 1. **📁 Create a new directory**:
-   - Open your terminal and run:
+   - Open your terminal and run inside the git folder:
      ```bash
      mkdir yourfoldername
      cd yourfoldername
@@ -100,7 +100,7 @@ Before we install Django, it's highly recommended to set up a virtual environmen
 2. **📂 Understand the directory structure**:
    - Ensure you see a structure like:
    ```
-   folder
+   gitfolder
    ├── manage.py
    ├── <project_name>
    │   ├── asgi.py
