@@ -27,7 +27,7 @@ As a Django developer, I want to deploy my application to a live server so that 
 ### 1️⃣ Set Up Git for Your Project
 
 1. **Initialize a Git Repository**:
-   - Open your console, navigate to the `djangogirls` directory, and run:
+   - Open your console, navigate to the `gitfolder` directory, and run:
      ```bash
      git init
      git config --global user.name "Your Name"
