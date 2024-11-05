@@ -66,7 +66,21 @@ urlpatterns = [
 # - The first URL pattern maps the root URL to the post_list view.
 # - The second URL pattern is dynamic, capturing the post ID and passing it to the post_detail view.
 
+# ----------------------------
+# Example: URL Namespacing
+# ----------------------------
 
+from django.urls import path
+# from .views import post_detail
+
+app_name = 'blog'  # Defining the namespace
+
+urlpatterns = [
+    path('post/<int:post_id>/', post_detail, name='post_detail'),  # Namespaced URL
+]
+
+
+'''<a href="{% url 'blog:post_detail' post_id=1 %}">View Post 1</a>'''
 # ----------------------------
 # Conclusion
 # ----------------------------
