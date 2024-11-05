@@ -26,7 +26,7 @@ As a user of the Todo List application, I want to be able to add, view, and dele
 
 ## 🛠️ Steps to Complete
 
-1. **📁 Create a new Django project**: Set up a new Django project and app named `todolist`.
+1. **📁 Create a new Django project or its okay if you wanna work from where you have last left in previous session**: Set up a new Django project and app named `todolist` or skip this step 1 and step 2 if you already have an app.
 
 2. **📝 Define models**: Create a `Task` model in `models.py` with fields for `title`, `description`, and `completed`.
 
@@ -36,6 +36,7 @@ As a user of the Todo List application, I want to be able to add, view, and dele
    - A URL for deleting a task.
 
 4. **🖊️ Implement views**: Create views in `views.py` for:
+   Example:
    - Displaying all tasks.
    - Displaying a task's detail based on the ID from the dynamic URL.
    - Deleting a task.
