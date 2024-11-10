@@ -38,6 +38,10 @@ Consider structuring your project as follows:
 
 Use **props** and **state** to manage the data in your components and create reusable components where possible.
 
+## Bonus
+
+You know how to use 3rd Party APIs using React, use the GitHub API to retrieve a list of your products meaning your Portfolio is continuosly up to date.
+
 ## Helpful Resources
 
 - **React Documentation**: [React Docs](https://reactjs.org/docs/getting-started.html)
