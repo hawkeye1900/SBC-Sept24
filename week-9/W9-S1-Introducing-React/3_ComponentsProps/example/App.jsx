@@ -1,12 +1,9 @@
-import { useState } from 'react'
-
 import Number from './components/Number'
 
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   const myName = 'Vite';
 
   const numbers = [1, 2, 3, 4, 5]

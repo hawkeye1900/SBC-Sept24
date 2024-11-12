@@ -2,9 +2,10 @@
 
 ## Challenge
 
-Now that you've set up your first React application using Vite, you'll notice there’s some starter code in `src/App.jsx`. In this exercise, we’ll focus on JSX expressions and dynamic rendering. While learning about state is up next, today’s task is to render a list of student names dynamically. Each time a button is clicked, one additional student name will appear.
+Now that you've set up your first React application using Vite, you'll notice there’s some starter code in `src/App.jsx` that's added by the Vite build tool.
+In this exercise, we’ll focus on JSX expressions and dynamic rendering. While learning about state is up in our next session, today’s task is to render a list of student names dynamically.
 
-When the app first loads, it should display only the first student's name. With each click, it will render one additional name until all student names are displayed.
+When the app first loads, it should display only the first student's name.
 
 ## Key Learnings
 
@@ -26,17 +27,12 @@ As a user, I want to see student names appear one by one each time I click a but
 
    - [ ] When the app first loads, only the first student's name should be displayed.
 
-3. **Button Click Behavior**:
-
-   - [ ] When the button is clicked, display one additional name from the array each time until all names are displayed.
-   - [ ] After all names are displayed, further clicks should not add more names.
-
-4. **Dynamic Rendering with JSX**:
+3. **Dynamic Rendering with JSX**:
 
    - [ ] Use JSX to dynamically render the list of names based on the current count.
    - [ ] Use the `map` function in React to display each name as an individual `<li>` element within a `<ul>`.
 
-5. **Code Structure and Comments**:
+4. **Code Structure and Comments**:
    - [ ] Ensure your code is clean and includes comments explaining key sections, especially the `map` function usage and how JSX expressions control the display.
 
 ## Instructions
@@ -71,17 +67,13 @@ import { useState } from 'react';
 
 function App() {
   const students = ["Alice", "Bob", "Charlie", "David", "Eve"];
-  const [count, setCount] = useState(1);
 
   return (
     <div>
       <h1>Student Names</h1>
       <ul>
-<!--your code goes here->
-    </ul>
-      <button onClick={() => setCount(count < students.length ? count + 1 : count)}>
-        Show More
-      </button>
+      <!--your code goes here->
+      </ul>
     </div>
   );
 }

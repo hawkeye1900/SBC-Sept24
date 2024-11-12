@@ -2,7 +2,8 @@
 
 ## Challenge
 
-Building on your last exercise, we’ll refactor the application to use components and props. This time, you’ll create a new `Student` component to display each student’s name and age. Start by updating your array of student names to an array of objects with `name` and `age` properties. The `Student` component will receive `name` and `age` as props, allowing it to render each student's details dynamically.
+Building on your last exercise, we’ll refactor the application to use components and props. This time, you’ll create a new `Student` component to display each student’s name and age.
+Start by updating your array of student names to an array of objects with `name` and `age` properties. The `Student` component will receive `name` and `age` as props, allowing it to render each student's details dynamically.
 
 **Bonus Task**: If a student’s age is over 21, the component should also display "Mature Student" next to their name.
 
