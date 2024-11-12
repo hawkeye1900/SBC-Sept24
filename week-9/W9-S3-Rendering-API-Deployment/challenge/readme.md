@@ -2,9 +2,9 @@
 
 ## Objective
 
-Now that you’ve learned React, it’s time to apply those skills by building a dynamic portfolio! In this project, you’ll create a React-based portfolio to showcase your skills and accomplishments, including the eight previous weekly challenges covering various technologies. The portfolio should demonstrate your understanding of React fundamentals, responsive design, and component-based architecture.
+Now that you've learned React, it's time to apply those skills by building a dynamic portfolio! In this project, you'll create a React-based portfolio to showcase your skills and accomplishments, including the eight previous weekly challenges covering various technologies. The portfolio should demonstrate your understanding of React fundamentals, responsive design, and component-based architecture.
 
-The portfolio should be **responsive** and include **navigation** linking to at least one other page. Use components to enhance the functionality of your application—consider building a **gallery** or other interactive sections to bring your work to life. Once complete, deploy your portfolio to [Render](https://render.com/).
+The portfolio should be **responsive** and include **navigation** linking to at least one other page. Use components to enhance the functionality of your application' consider building a **gallery** or other interactive sections to bring your work to life. Once complete, deploy your portfolio to [Render](https://render.com/).
 
 ## Key Learnings
 
@@ -40,7 +40,7 @@ Use **props** and **state** to manage the data in your components and create reu
 
 ## Bonus
 
-You know how to use 3rd Party APIs using React, use the GitHub API to retrieve a list of your products meaning your Portfolio is continuosly up to date.
+You know how to use 3rd Party APIs using React, use the GitHub API to retrieve a list of your products meaning your Portfolio is continuously up to date.
 
 ## Helpful Resources
 
