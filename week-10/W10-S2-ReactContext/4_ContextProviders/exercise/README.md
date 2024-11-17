@@ -5,6 +5,7 @@
 World-renowned pioneer and Yorkshireman Ely Musket has rebranded a popular social media platform to "Y!?". After a code review, Ely has identified areas in the codebase that could benefit from a more organized state management solution. Your challenge is to refactor the code to use Providers to store global data: specifically, the logged-in user's ID and their theme preference (light or dark mode). This information should be accessible across the app by implementing a React Context Provider, which will store the user ID and theme mode, and provide methods for switching the theme’s mode.
 
 Once implemented, use React DevTools to verify that your provider and context setup are configured correctly.
+Use the [React Developer Tools - Chrome Web Store](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en&pli=1) Browser Extension to test this.
 
 ## Key Learnings
 
