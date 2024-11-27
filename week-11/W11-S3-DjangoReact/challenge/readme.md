@@ -1,84 +1,119 @@
-# Bug Fixes and Product Enhancements
+# Assignment: Develop a Full-Stack App
 
 ## Challenge
 
-Welcome to a practical exercise simulating the day-to-day tasks of professional developers working on an ongoing project!
+This assignment is your opportunity to combine your frontend and backend development skills to create a fully functional **Full-Stack Application**.
 
-Today, you will contribute to the development of a secure technical article platform for Step8Up. The platform is built using **React** on the frontend and **Django** on the backend. You will be invited to the GitHub repository as a collaborator, where you will tackle a variety of GitHub Issues, including bug reports, feature requests, and development tasks.
+You will design and implement an **Issue Tracker Application** with the following features:
 
-Your objective is to use **branching** and **Pull Requests** (PRs) to address these issues. You’ll work collaboratively to pick tickets from the Issues, implement fixes or features, and integrate them into the main codebase to advance the platform's development.
+- Users can **create, view, update, and delete issues**.
+- Each issue will have the following properties:
+  - **Status** (e.g., Open, In Progress, Resolved).
+  - **Date** (timestamp when the issue is created or updated).
+  - **Issue Text** (a short description of the issue).
+- The application must be **secured with authentication**, requiring users to **register** and **log in** to access the features.
+
+Finally, you will **deploy the application** to Render to make it accessible online.
 
 ---
 
-## Getting Started
-
-Follow the [README.md](https://github.com/SBC-Sep24/step8up-knowledge-base#readme) in the repository to set up the project locally.
-
 ## Key Learnings
 
-- Collaborative development using **GitHub**.
-- Addressing real-world challenges with **React** and **Django** development.
-- Effective branching strategies and managing **Pull Requests**.
-- Understanding and resolving **bug reports** and implementing **feature requests**.
-- Working within an existing project structure.
+By completing this exercise, you will strengthen the following skills:
+
+- **Django Models**:
+  - Designing models for storing and managing issue data.
+  - Utilizing Django ORM for CRUD operations.
+- **APIs**:
+  - Creating a REST API using Django for communication between the backend and frontend.
+  - Consuming the API with React to dynamically display and update data.
+- **JWT Authentication**:
+  - Securing API endpoints with JSON Web Tokens (JWT).
+  - Implementing login and registration flows using JWT in both backend and frontend.
+- **React Development**:
+  - Building user interfaces to interact with the API.
+  - Handling state management and API calls with React.
+- **Deployment**:
+  - Deploying the full stack application to Render.
 
 ---
 
 ## User Story
 
-> As a developer, I want to contribute to a collaborative project by resolving reported issues and adding features, so that the platform evolves and becomes more robust.
+> As a user, I want to securely log in to an issue tracker application so that I can manage my project issues effectively.
 
 ---
 
 ## Acceptance Criteria
 
-1. **Repository Access**
+### Backend (Django):
 
-   - You are added as a collaborator to the GitHub repository for the Step8Up technical article platform.
-   - You can clone the repository locally and set up the development environment.
+1. **Model Design**:
+   - Create a model for storing issue data with fields for status, date, and issue text.
+2. **API Implementation**:
+   - Build RESTful endpoints for:
+     - **List Issues** (GET).
+     - **Retrieve Issue Details** (GET by ID).
+     - **Create New Issue** (POST).
+     - **Update Issue** (PUT).
+     - **Delete Issue** (DELETE).
+3. **Authentication**:
+   - Set up user authentication with **JWT**.
+   - Protect API endpoints to allow only authenticated users.
 
-2. **Issue Assignment**
+### Frontend (React):
 
-   - You can navigate the GitHub Issues tab and select a bug report, feature request, or development task to work on.
-   - Clearly assign yourself to the chosen ticket to avoid overlaps.
+1. **Authentication**:
+   - Create login and registration pages.
+   - Store and use JWT tokens for secure API communication.
+2. **Issue Tracker Interface**:
+   - Display a list of issues fetched from the API.
+   - Allow users to create, edit, and delete issues.
+   - Add status filtering for easier issue management.
+3. **User Experience**:
+   - Ensure smooth navigation between pages and error handling (e.g., invalid login).
 
-3. **Branching Strategy**
+### Deployment:
 
-   - Create a new branch named after the issue you are working on (e.g., `fix-bug-123`, `feature-add-comments`).
-   - Ensure your changes are committed to the branch.
+1. **Backend Deployment**:
+   - Deploy the Django backend on **Render** with the API publicly accessible.
+2. **Frontend Deployment**:
+   - Deploy the React application on **Render**.
+3. **Full Stack Integration**:
+   - Ensure the frontend communicates seamlessly with the deployed backend.
 
-4. **Bug Fixes and Feature Development**
+---
 
-   - For bug reports: Investigate the issue, implement a fix, and verify it resolves the problem.
-   - For feature requests: Implement the feature based on the provided specifications and ensure it integrates well with the existing application.
+## Steps to Complete
 
-5. **Testing**
+### Step 1: Backend Development
 
-   - Write or update tests as necessary to validate your changes.
-   - Test your changes locally to ensure they do not introduce new issues.
+1. Set up a Django project in the `backend` folder.
+2. Create models, serializers, and views for the issue tracker API.
+3. Implement JWT authentication using `djangorestframework-simplejwt`.
+4. Test your API using tools like **Postman** or **cURL**.
 
-6. **Pull Requests**
+### Step 2: Frontend Development
 
-   - Open a Pull Request for your branch, providing a detailed description of your changes.
-   - Ensure your PR is reviewed and approved by at least one other collaborator before merging.
+1. Set up a React project in the `frontend` folder using Vite.
+2. Create components for login, registration, and the issue tracker interface.
+3. Integrate the API with React using `fetch` or libraries like `axios`.
+4. Ensure secure API calls with JWT.
 
-7. **Collaboration and Communication**
+### Step 3: Deployment
 
-   - Actively communicate with other collaborators about progress and challenges via GitHub comments or other agreed-upon channels.
-   - Incorporate feedback from PR reviews into your branch before merging.
-
-8. **Final Merge**
-   - Successfully merge your PR into the main branch once all feedback is addressed and tests pass.
+1. Deploy the Django backend on **Render**.
+2. Deploy the React frontend on **Render**.
+3. Test the deployed application to ensure all features work as expected.
 
 ---
 
 ## Additional Notes
 
-- Follow any coding style or guidelines outlined in the repository documentation.
-- For React: Pay attention to component structure and state management best practices.
-- For Django: Ensure the backend logic integrates seamlessly with the frontend, and follow proper security practices.
-- If you encounter issues during development, feel free to reach out to your instructor or peers for support.
+- Follow best practices for project structure, such as separating concerns (models, serializers, views).
+- Use meaningful commit messages to document your progress in Git.
+- Test thoroughly to ensure that your app is secure and bug-free.
 
 ---
 
-Good luck, and happy coding! 🎉
+Good luck, and have fun building your full-stack application! 🎉
