@@ -10,6 +10,10 @@ Your objective is to use **branching** and **Pull Requests** (PRs) to address th
 
 ---
 
+## Getting Started
+
+Follow the [README.md](https://github.com/SBC-Sep24/step8up-knowledge-base#readme) in the repository to set up the project locally.
+
 ## Key Learnings
 
 - Collaborative development using **GitHub**.
