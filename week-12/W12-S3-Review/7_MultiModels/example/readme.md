@@ -1,4 +1,3 @@
-
 # Course Management API
 
 ## Overview
@@ -17,10 +16,12 @@ This project is a Django-based REST API for managing courses and user enrollment
 
 ---
 
+---
+
 ## Setup Instructions
 
-
 ### **1. Create the Django Project**
+
 - Initialize the Django project:
   ```bash
   django-admin startproject course_api
@@ -32,6 +33,7 @@ This project is a Django-based REST API for managing courses and user enrollment
   ```
 
 ### **2. Configure the Database**
+
 - Update `settings.py`:
   - Add required apps:
     ```python
@@ -59,12 +61,12 @@ This project is a Django-based REST API for managing courses and user enrollment
 
 ### **ADD AUTHENTICATION FIRST BY YOURSELF., USE EXAMPLE CODE IN BACKEND**
 
-
-
 ## NEXT Implementation Steps
 
 ### **1. Define Models**
+
 In `api/models.py`:
+
 ```python
 from django.contrib.auth.models import User
 from django.db import models
@@ -80,7 +82,9 @@ class Course(models.Model):
 ```
 
 ### **2. Create Serializers**
+
 In `api/serializers.py`:
+
 ```python
 from rest_framework import serializers
 from .models import Course
@@ -103,7 +107,9 @@ class CourseSerializer(serializers.ModelSerializer):
 ---
 
 ### **3. Create Viewsets**
+
 In `api/views.py`:
+
 ```python
 from rest_framework import viewsets, permissions
 from rest_framework.response import Response
@@ -137,7 +143,9 @@ class CourseViewSet(viewsets.ModelViewSet):
 ---
 
 ### **4. Configure URLs**
+
 - In `api/urls.py`:
+
   ```python
   from django.urls import path, include
   from rest_framework.routers import DefaultRouter
@@ -150,7 +158,9 @@ class CourseViewSet(viewsets.ModelViewSet):
       path('', include(router.urls)),
   ]
   ```
+
 - In `course_api/urls.py`:
+
   ```python
   from django.contrib import admin
   from django.urls import path, include
@@ -164,6 +174,7 @@ class CourseViewSet(viewsets.ModelViewSet):
 ---
 
 ### **5. Apply Migrations**
+
 - Run migrations:
   ```bash
   python manage.py makemigrations
@@ -183,10 +194,11 @@ Use Postman or CURL to test the following endpoints:
 1. **Create a Course**  
    POST `/api/courses/`  
    Request Body:
+
    ```json
    {
-       "title": "Sample Course",
-       "description": "This is a sample course."
+     "title": "Sample Course",
+     "description": "This is a sample course."
    }
    ```
 
