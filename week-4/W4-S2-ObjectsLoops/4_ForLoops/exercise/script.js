@@ -1,4 +1,5 @@
 // here's an example of a for loop
+console.log("for loop example");
 for (var i = 1; i <= 5; i++) {
   console.log(i);
 }

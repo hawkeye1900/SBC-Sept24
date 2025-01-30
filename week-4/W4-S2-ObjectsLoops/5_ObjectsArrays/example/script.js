@@ -4,7 +4,7 @@ var student = {
   isGraduated: false,
 };
 
-console.log(student.name + " is " + student.age + " years old.");
+console.log(`${student.name} + " is " + student.age + " years old.`);
 
 var students = [
   {
@@ -23,6 +23,8 @@ var students = [
     isGraduated: true,
   },
 ];
+
+var dogName = ["Fido", "Rex", "Spot"];
 
 var student1 = students[0];
 console.log(student1.name + " is the first student in the array.");

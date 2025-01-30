@@ -1,4 +1,5 @@
 // 1. Object.keys() - TODO: WHat does this method do? What is the output?
+
 const person = {
   name: "Alice",
   age: 30,
@@ -10,7 +11,7 @@ console.log("Keys:", Object.keys(person));
 console.log("Values:", Object.values(person));
 
 // 3. Array.push() - TODO: WHat does this method do? What is the output?
-let fruits = ["apple", "banana"];
+let fruits = ["apple", "banana", "mango"];
 fruits.push("orange");
 console.log("After push:", fruits); // ["apple", "banana", "orange"]
 

@@ -2,7 +2,7 @@ var mainContentEl = document.querySelector(".main-content");
 var sideBarEl = document.querySelector(".sidebar");
 
 // change the text of the first p tag in the mainContentEl
-sideBarEl.childNodes[1].textContent = "My Dashboard";
+sideBarEl.childNodes[1].textContent = "My Dashboards";
 
 // which is the same as....
 var titleEl = document.getElementById("page-title");
