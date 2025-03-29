@@ -1,0 +1,22 @@
+body {
+  background-color: #a3a3a3;
+}
+
+.main {
+  width: 50%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px 20px;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2),
+    2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fieldset {
+  padding: 20px 15px;
+}
+
+.submitBtn {
+  width: 65px;
+  height: 35px;
+  border-radius: 8px;
+}
