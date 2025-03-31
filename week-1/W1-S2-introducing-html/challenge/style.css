@@ -20,3 +20,14 @@ body {
   height: 35px;
   border-radius: 8px;
 }
+
+.input {
+  background-color: #cbcbcb;
+  border: None;
+}
+
+.input:hover {
+  background-color: #d2d2d2;
+  border: 0px;
+  box-shadow: 2px 1px 1px #a7a6a6;
+}
